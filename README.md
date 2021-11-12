@@ -8,6 +8,11 @@ sudo dd bs=4M if=source of=destion conv=fsync oflag=direct status=progress
 rsync -ah --progress source destination
 ````
 
+#### download: remote -> local (with key)
+````
+ sudo scp -r -i /home/lukaa/.ssh/key user@host:path local_path
+````
+
 #### download: remote -> local
 ````
 scp user@remote_host:remote_file local_file 
