@@ -33,6 +33,14 @@ du -h --max-depth=1
 ./usr/share/phpmyadmin/libraries/config.default.php
 ````
 
+#### PLEX stuff
 
+````
+sudo systemctl enable plexmediaserver.service
+sudo systemctl start plexmediaserver.service
+sudo systemctl status plexmediaserver.service
+sudo systemctl stop plexmediaserver.service
+
+````
 
 
