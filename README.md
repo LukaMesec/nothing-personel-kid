@@ -44,3 +44,20 @@ sudo systemctl stop plexmediaserver.service
 ````
 
 
+#### MYSQL stuff
+
+````
+USE ime_baze;
+````
+
+````
+select email from info where type like "%informacijsko%" or type like "%računal%" or type like "%progr%" INTO OUTFILE "/tmp/rezultat.txt";
+
+````
+
+
+
+
+
+
+
