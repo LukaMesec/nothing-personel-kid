@@ -80,4 +80,12 @@ docker run -d \
     pihole/pihole:latest
 ````
 
-
+Run nextcloud with volume on 8085
+````
+docker run -d -p 8085:80\
+	-v nextcloud:/var/www/html \
+	-v apps:/var/www/html/custom_apps \
+	-v config:/var/www/html/config \
+	-v data:/var/www/html/data \
+	nextcloud
+````
