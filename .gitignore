@@ -1,0 +1,3 @@
+docker-compose/portainer-data/portainer.key
+docker-compose/portainer-data/portainer.db
+docker-compose/portainer-data/portainer.pub
