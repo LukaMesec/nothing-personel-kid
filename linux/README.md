@@ -40,7 +40,6 @@ sudo systemctl enable plexmediaserver.service
 sudo systemctl start plexmediaserver.service
 sudo systemctl status plexmediaserver.service
 sudo systemctl stop plexmediaserver.service
-
 ````
 
 
